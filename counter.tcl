@@ -7,7 +7,7 @@ set LOCAL_DIR [exec pwd]
 set SYNTH_DIR $LOCAL_DIR
 set RTL_PATH $LOCAL_DIR/source
 set LIB_PATH $LOCAL_DIR/library
-set LIBRARY  {gscl45nm.lib}
+set LIBRARY  {slow.lib}
 set FILE_LIST  {counter.sv}
 set SYN_EFFORT   high 
 set MAP_EFFORT   high
