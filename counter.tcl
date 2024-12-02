@@ -38,7 +38,7 @@ puts "Hostname : [info hostname]"
 # # Load Design
 # ###################################
 read_lib $LIB_PATH/$LIBRARY
-read_hdl $RTL_PATH/$FILE_LIST
+read_hdl -sv $RTL_PATH/$FILE_LIST
 elaborate $DESIGN
 puts "Runtime & Memory after 'read_hdl'"
 timestat Elaboration
